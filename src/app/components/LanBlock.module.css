@@ -1,0 +1,58 @@
+
+.lanblock {
+    width: 50px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  .lanimg {
+    border: 1px solid #ffffff;
+    width: 40px;
+    height: 50px;
+    text-align: center;
+  }
+  
+  .cut {
+    border-bottom: 1px solid #ffffff;
+    width: 19px;
+    height: 21px;
+    transform: rotate(45deg);
+    top:-12px;
+    right:-32px;
+    position: relative;
+    background-color: black;
+  }
+  
+  .undercut{
+    width: 13px;
+    height: 13px;
+    border-left: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    top:-22px;
+    right:-27px;
+    position: relative;
+  
+  }
+  
+  
+  .exte {
+    height: 15px;
+    position: relative;
+    top:-10px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: centerr;
+    color: black;
+    font-size: 0.7em;
+  }
+  
+  .lanblock h4 {
+    color:white;
+    text-align: center;
+  }
